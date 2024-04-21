@@ -1,3 +1,9 @@
+<!-- TODO:
+Add links to sticky header- linkedin, github, email, resume
+Make the icons for above pages the same colors- tiffany blue and black
+Add a list of buttons for the following: Skills, Projects, Contact Me, More about me, Media
+Write js to make the buttons do something
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +17,9 @@
 
         }
 
-        .image-container {
-            width: 100%; /* Makes this specific div span the entire width of the viewport */
-            display: flex;
-            flex-direction: row-reverse; /* Reverses the direction of the flex items */
-        }
-
         .sticky-div {
             position: sticky;
-            top: 0; /* This specifies the distance from the top of the viewport */
+            top: 0;
         }
 
         .me {
@@ -32,7 +32,7 @@
 
         .me:hover {
             transform: scale(1.1);
-            transition: transform 0.7s; /* Corrected typo from 'tramsition' to 'transition' */
+            transition: transform 0.7s;
         }
 
         .black {
@@ -45,15 +45,15 @@
 
 
         .side-div {
-            width: 45%; /* Reduced from 50% to 45% */
+            width: 45%;
         }
 
         .side-div:first-child {
-            border-right: 1px solid #0ABAB5; /* Adjust color as needed */
+            border-right: 1px solid #0ABAB5;
         }
 
         .side-div:last-child {
-            margin-left: 10%; /* Added this line */
+            margin-left: 10%;
         }
 
 
@@ -70,7 +70,6 @@
     <div class="side-div">
         <h3><strong>Hi!</strong></h3>
         <p>My name is Ethan Himmell, and I love Computer Science. So much so that I made this website!</p>
-        <p></p>
         <p>I'm a future student at Purdue University's Department of Computer Science, in Artificial Intelligence. But,
             until then, I'm a student at
             Tri-Valley High School and a SWE Intern at State Farm Insurance.</p>
